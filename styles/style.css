@@ -39,21 +39,25 @@
     color: #005FAC;
     border: 0;
 }
+
 /* failures section style */
 
 .failures {
     display: flex;
     gap: 87px;
 }
-img {
+
+.img-person {
     width: 569px;
-height: 723px;
-margin-top: 131px;
-margin-left: 200px;
+    height: 723px;
+    margin-top: 131px;
+    margin-left: 180px;
 }
-.failures-section{
+
+.failures-section {
     margin-top: 370px;
 }
+
 .section-title {
     margin-bottom: 24px;
     font-weight: 700px;
@@ -66,8 +70,115 @@ margin-left: 200px;
     font-size: 16px;
     line-height: 26px;
 }
+
 .section-list {
-line-height: 30px;
+    line-height: 30px;
 }
 
 /* My Plans section styles */
+.Plans-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-top: 130px;
+    margin-bottom: 50px;
+}
+
+.Plans {
+    display: flex;
+    gap: 86px;
+    margin-left: 100px;
+    text-align: center;
+}
+
+.Plans-sub-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    margin-bottom: 16px;
+}
+
+.Plans-description {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+
+/* positive mindset styles */
+.positive-title {
+    font-weight: 700px;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.positive-mindset {
+    background-image: linear-gradient(92deg, rgba(0, 102, 255, 0.973), rgb(0 0 255 / 0%)),url(../images/watch.png);
+    
+    margin-left: 100px;
+    margin-top: 130px;
+    background-repeat: no-repeat;
+    width: 1140px;
+    height: 250px;
+    padding-left: 64px;
+    padding-top: 50px;
+    border-radius: 8px;
+
+}
+
+/* footer section styles */
+.footer {
+    background: #151414;
+    display: flex;
+    gap: 343px;
+    width: 1600px;
+    height: 577px; 
+    margin-top: 180px;
+}
+.footer-info {
+margin-top: 75px;
+padding-left: 100px;
+}
+
+.info-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8; 
+    margin-bottom: 16px;
+}
+
+.info-description {
+    font-size: 16px;
+    color: #FFFFFF;
+    padding-bottom: 17px;
+
+}
+.icons{
+   margin-top: 32px;
+}
+
+.info-sub-title {
+    font-weight: 600px;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-top: 95px;
+}
+
+input {
+    width: 325px;
+    height: 64px;
+    font-size: 18px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    background: #151414;
+    margin-top: 33px;
+}
+
+.btn-blue {
+    background: #005FAC;
+    border-radius: 8px;
+    width: 170.11px;
+    height: 64px;
+    margin-top: 10px;
+}
